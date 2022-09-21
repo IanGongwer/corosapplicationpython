@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 hashmap = {}
 
+# Currently this program does not have the ability to change the urls via input and it does not check to see if a url is valid or not.
 
 def getExt(urls):
     for url in urls:
